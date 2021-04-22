@@ -1,0 +1,57 @@
+:root {
+  --paddingWidth: clamp(1.41575rem, -681.4191rem + 1923.4784vw, 2.617924rem);
+  --paddingHeight: clamp(1.618em, 0.8681rem + 3.3331vw, 2.617924em);
+  --pinkCta: #e0aab9;
+  --greenCta: #203633;
+  --gray: #f0f0f0;
+  --titleColor: #333;
+  --textColor: #6d6d6d;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+button,
+input {
+  line-height: 1.618;
+  text-rendering: optimizeLegibility;
+  font-weight: 400;
+}
+header,
+main {
+  margin: 0 auto;
+  padding: var(--paddingHeight) var(--paddingWidth);
+}
+
+header {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+header > img {
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  max-width: 230px;
+  max-height: none;
+}
+
+h1 {
+  text-align: center;
+  line-height: 1.214;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+@media screen and (max-width: 767.5px) {
+  h1 {
+    text-align: left;
+  }
+}

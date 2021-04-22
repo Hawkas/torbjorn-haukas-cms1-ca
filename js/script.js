@@ -7,3 +7,4 @@ fetch(url)
   .catch((error) => {
     console.error("Shit's wrong yo", error);
   });
+function listProducts(products) {}

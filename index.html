@@ -4,10 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flower Power Products from WP REST API</title>
+    <title>Flower Power Products - Noroff FEU 2021 CMS CA</title>
+    <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/stylesheet.css" />
+    <!-- [1] -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- [2] -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,400&display=swap"
+    />
+    <!-- [3] -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,400&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <!-- [4] -->
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,400&display=swap"
+    /></noscript>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png" />
   </head>
   <body>
+    <header>
+      <img src="./media/logo.png" alt="Flower Power's Logo" width="230px" height="auto" />
+    </header>
+    <main>
+      <h1>Products</h1>
+      <div class="products">
+        <ul class="products__list"></ul>
+      </div>
+    </main>
     <script src="./js/script.js"></script>
   </body>
 </html>
