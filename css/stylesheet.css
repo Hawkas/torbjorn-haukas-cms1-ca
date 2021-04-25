@@ -444,8 +444,6 @@ video {
 
 /*! RESET COMPLETE, SHOWTIME */
 
-/** To save myself some effort in trying to make things look pretty, I chose to use mostly similar values to the wordpress site in my CSS */
-
 :root {
   --paddingWidth: clamp(1.41575rem, -681.4191rem + 1923.4784vw, 2.617924rem);
   --paddingHeight: clamp(1.618em, 0.8681rem + 3.3331vw, 2.617924em);
