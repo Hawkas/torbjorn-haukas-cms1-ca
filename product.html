@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Products - Flower Power - Noroff FEU 2021 CMS CA</title>
+    <title>Flower Power Product - Noroff FEU 2021 CMS CA</title>
     <link rel="stylesheet" href="./css/stylesheet.css" />
     <!-- [1] -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,25 +32,9 @@
   </head>
   <body>
     <header class="bodyheader page-column">
-      <a href="#" class="homelink"><img src="./media/logo.png" alt="Flower Power's Logo" width="1000" height="200" /></a>
+      <a href="index.html" class="homelink"><img src="./media/logo.png" alt="Flower Power's Logo" width="1000" height="200" /></a>
     </header>
-    <main class="page-column">
-      <header class="pageheader">
-        <h1 class="products-title">Products</h1>
-      </header>
-      <div class="sorting">
-        <form class="sorting__form" method="GET">
-          <select name="options" id="options" class="sorting__options">
-            <option value="default" selected="selected">Default sorting</option>
-            <option value="name">Sort by name</option>
-            <option value="price">Sort by price: low to high</option>
-          </select>
-        </form>
-      </div>
-      <div class="products">
-        <ul class="products__list"></ul>
-      </div>
-    </main>
-    <script src="./js/allproducts.js"></script>
+    <main class="single-product page-column"></main>
+    <script src="./js/product.js"></script>
   </body>
 </html>
